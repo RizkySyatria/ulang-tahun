@@ -48,27 +48,27 @@ tlItems.forEach((item) => tlObserver.observe(item));
 // ===== 21 Alasan =====
 // Ganti teks di bawah dengan versimu sendiri (tetap 21 item).
 const reasons = [
-  'Kamu nggak gampang nyerah, bahkan pas semuanya terasa berat',
-  'Kamu mandiri dan berani ngadepin masalah dengan caramu sendiri',
-  'Kamu tetap lanjut skripsi walau capek dan sempat nangis',
-  'Kamu tulus sama orang-orang di sekitarmu',
-  'Senyummu bisa bikin hariku langsung membaik',
-  'Kamu lucu banget, apalagi pas lagi nggak sadar lagi lucu',
-  'Kamu sayang banget sama kucing dan boneka-bonekamu',
-  'Kamu bikin hal-hal kecil jadi terasa spesial',
-  'Kamu selalu berusaha jadi versi terbaik dirimu',
-  'Kamu pendengar yang baik',
-  'Kamu kuat, walau kadang nggak mau ngaku',
-  'Kamu pintar, dan aku lihat sendiri kerja kerasnya',
-  'Ketawamu menular',
-  'Kamu punya hati yang lembut',
-  'Kamu bikin aku pengen jadi orang yang lebih baik',
-  'Kamu nggak pernah setengah-setengah kalau berusaha',
-  'Kamu selalu bisa bangkit lagi setelah jatuh',
-  '[alasan personal: sesuatu yang cuma kamu yang tahu]',
-  '[alasan personal: momen yang bikin kamu makin sayang]',
-  '[alasan personal: kebiasaan kecilnya yang kamu suka]',
-  'Karena kamu adalah kamu, dan itu lebih dari cukup 💗'
+  'utii nggak gampang nyerah, bahkan pas semuanya terasa berat',
+  'utii mandiri dan berani ngadepin masalah dengan cara utii sendiri',
+  'utii tetap lanjut skripsi walau capek dan sempat nangis',
+  'utii tulus sama orang-orang di sekitar utii',
+  'Senyum utii bisa bikin hari ikii langsung membaik',
+  'utii lucu banget, apalagi pas lagi nggak sadar lagi lucu',
+  'utii sayang banget sama kucing dan boneka-boneka',
+  'utii bikin hal-hal kecil jadi terasa spesial',
+  'utii selalu berusaha jadi versi terbaik diri utii',
+  'utii pendengar yang baik',
+  'utii kuat, walau kadang nggak mau ngaku',
+  'utii pintar, dan ikii lihat sendiri kerja kerasnya',
+  'Ketawa utii menular',
+  'utii punya hati yang lembut',
+  'utii bikin ikii pengen jadi orang yang lebih baik',
+  'utii nggak pernah setengah-setengah kalau berusaha',
+  'utii selalu bisa bangkit lagi setelah jatuh',
+  'utii cimutt',
+  'utii gemess',
+  'utii selalu ada buat ikii, walau kadang utii nggak sadar',
+  'Karena utii adalah utii, dan itu lebih dari cukup 💗'
 ];
 
 const grid = document.getElementById('reasonsGrid');
