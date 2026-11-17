@@ -113,24 +113,27 @@ function fireConfetti() {
 }
 
 function fireSprinkles() {
+  if (typeof confetti !== 'function') return;
+
   const colors = ['#ff6fa5', '#ffd6e7', '#ffe58a', '#ffffff', '#a0e7ff'];
-  const heart = confetti.shapeFromText({ text: '💗', scalar: 2 });
-  const paw = confetti.shapeFromText({ text: '🐾', scalar: 2 });
+  const scalar = 1.6; // harus sama untuk shapeFromText dan confetti
+  const heart = confetti.shapeFromText({ text: '💗', scalar });
+  const paw = confetti.shapeFromText({ text: '🐾', scalar });
   const end = Date.now() + 4000; // lama hujan: 4 detik
 
   (function rain() {
     confetti({
       particleCount: 3,
-      angle: 90,
-      spread: 70,
-      startVelocity: 18,
-      gravity: 0.6,
-      ticks: 300,
-      drift: (Math.random() - 0.5) * 1.5,
-      origin: { x: Math.random(), y: -0.1 },
+      angle: 270,            // 270 = jatuh ke bawah
+      spread: 60,
+      startVelocity: 12,
+      gravity: 0.8,
+      ticks: 350,
+      drift: (Math.random() - 0.5) * 2,
+      origin: { x: Math.random(), y: -0.05 },
       colors,
       shapes: ['circle', 'square', heart, paw],
-      scalar: 1.4
+      scalar
     });
     if (Date.now() < end) requestAnimationFrame(rain);
   })();
